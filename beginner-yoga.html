@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beginner Yoga Classes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/icon-3.png" type="image/x-icon">
+
+  <style>
+    /* Custom styling for video box */
+    .video-box {
+      background-color: #f7f7f7;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Custom styling for video description */
+    .video-description {
+      font-size: 16px;
+      color: #333;
+    }
+
+    /* Custom styling for info icon */
+    .info-icon {
+      color: #007bff;
+      margin-left: 5px;
+    }
+
+    /* Adjust video box size to fit video */
+    .embed-responsive-16by9 {
+      position: relative;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+    .embed-responsive-16by9 iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+    /* Custom styling for 3D box */
+    .three-d-box {
+      background-color: #e100ff75;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Sticky Back Button */
+    .sticky-back-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+    
+    /* Full 3D box */
+    .full-3d-box {
+      background-color: #007bff6c;
+      color: #fff;
+      padding: 30px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    /* Description for the 3D box */
+    .box-description {
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    /* Glow animation */
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #007bff, 0 0 30px #007bff;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #007bff, 0 0 40px #007bff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="full-3d-box">
+    <marquee direction="left" behavior="scroll" scrollamount="12">
+    <h1 class="box-description">Welcome to our Beginner Yoga Classes</h1>
+    </marquee>
+    <section class="container my-5" id="beginner">
+      <h2 class="text-center mb-5 three-d-box">Beginner Yoga Classes</h2>
+      <div class="row">
+        <!-- Video 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="video-box">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4pKly2JojMw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="video-description mt-2">Demo Class 1: Basic Poses <i class="bi bi-info-circle-fill info-icon"></i></p>
+          </div>
+        </div>
+              <div class="col-md-6 mb-4">
+                <div class="video-box">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GLy2rYHwUqY" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <p class="video-description mt-2">Demo Class 2: Gentle Flow <i class="bi bi-info-circle-fill info-icon"></i></p>
+                </div>
+              </div>
+              <!-- Video 3 -->
+              <div class="col-md-6 mb-4">
+                <div class="video-box">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1ZYH8l4hI8Y" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <p class="video-description mt-2">Demo Class 3: Morning Yoga <i class="bi bi-info-circle-fill info-icon"></i></p>
+                </div>
+              </div>
+              <!-- Video 4 -->
+              <div class="col-md-6 mb-4">
+                <div class="video-box">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X3-gKPNyrTA" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <p class="video-description mt-2">Demo Class 4: Yoga for Flexibility <i class="bi bi-info-circle-fill info-icon"></i></p>
+                </div>
+              </div>
+              <!-- Video 5 -->
+              <div class="col-md-6 mb-4">
+                <div class="video-box">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dJxjdJXupF8" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <p class="video-description mt-2">Demo Class 5: Evening Relaxation Yoga <i class="bi bi-info-circle-fill info-icon"></i></p>
+                </div>
+              </div>
+              <!-- Video 6 -->
+              <div class="col-md-6 mb-4">
+                <div class="video-box">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sTANio_2E0Q" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <p class="video-description mt-2">Demo Class 6: Yoga for Stress Relief <i class="bi bi-info-circle-fill info-icon"></i></p>
+                </div>
+              </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Back option with confirmation dialog -->
+  <button class="btn btn-primary sticky-back-button" onclick="confirmRedirect()">
+    <i class="bi bi-arrow-left"></i> Back
+  </button>
+
+  <!-- Additional scripts if needed -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/bootstrap-icons.min.js"></script>
+  <script>
+    // Confirmation dialog for "back" option
+    function confirmRedirect() {
+      var confirmation = confirm("Are you sure you want to go back?");
+      if (confirmation) {
+        window.location.href = "userpage.php";
+      }
+    }
+  </script>
+</body>
+</html>
